@@ -6,7 +6,7 @@
 ## 🔐 Rule Expression
 
 ```cf-expression
-http.request.uri.path contains "/wp-admin"
+(http.request.uri.path contains "/wp-admin")
 ```
 
 ## ✅ Suggested Action
