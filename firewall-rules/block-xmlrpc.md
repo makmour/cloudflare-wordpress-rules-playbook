@@ -6,7 +6,7 @@
 ## 🔐 Rule Expression
 
 ```cf-expression
-http.request.uri.path contains "/xmlrpc.php"
+(http.request.uri.path contains "/xmlrpc.php")
 ```
 
 ## ✅ Suggested Action
