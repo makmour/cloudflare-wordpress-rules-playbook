@@ -6,7 +6,7 @@
 ## 🔐 Rule Expression
 
 ```cf-expression
-http.request.uri.path eq "/wp-login.php"
+(http.request.uri.path eq "/wp-login.php")
 ```
 
 ## ✅ Suggested Action
