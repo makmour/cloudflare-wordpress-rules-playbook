@@ -6,7 +6,7 @@
 ## 🔐 Rule Expression
 
 ```cf-expression
-http.request.uri.path eq "/"
+(http.request.uri.path eq "/")
 ```
 
 ## ✅ Suggested Action
