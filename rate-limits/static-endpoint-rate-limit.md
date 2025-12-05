@@ -4,7 +4,7 @@
 **Type:** Expression Builder Compatible  
 **Purpose:** Protect against bot abuse of static endpoints like favicon, robots.txt, and feeds.
 
-## 🔐 Rule Expression
+## Rule Expression
 
 ```cf-expression
 (http.request.uri.path contains "/favicon.ico") or
@@ -14,13 +14,13 @@
 (http.request.uri.path contains ".atom")
 ```
 
-## ✅ Suggested Action
+## Suggested Action
 
 - Action: Managed Challenge
 - Threshold: 15 requests/min per IP
 - Period: 60 seconds
 - Penalty TTL: 600 seconds
 
-## 📌 Notes
+## Notes
 
 This rule helps mitigate low-level DoS attacks and unnecessary load by rate limiting redundant bot traffic.
