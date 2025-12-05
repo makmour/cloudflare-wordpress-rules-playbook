@@ -3,16 +3,16 @@
 **Category:** Firewall Rule  
 **Purpose:** Block or challenge bots scanning admin endpoints.
 
-## 🔐 Rule Expression
+## Rule Expression
 
 ```cf-expression
 (http.request.uri.path contains "/wp-admin")
 ```
 
-## ✅ Suggested Action
+## Suggested Action
 
 - Action: Managed Challenge
 
-## 📌 Notes
+## Notes
 
 Avoid applying strict cache rules here. Protect access without blocking legitimate users.
