@@ -3,16 +3,16 @@
 **Category:** Firewall Rule  
 **Purpose:** Prevent unauthorized login attempts and brute force abuse.
 
-## 🔐 Rule Expression
+## Rule Expression
 
 ```cf-expression
 (http.request.uri.path eq "/wp-login.php")
 ```
 
-## ✅ Suggested Action
+## Suggested Action
 
 - Action: Managed Challenge
 
-## 📌 Notes
+## Notes
 
 Optionally restrict by country, IP range, or allow only known admin IPs.
