@@ -3,16 +3,16 @@
 **Category:** Firewall Rule  
 **Purpose:** Prevent brute force and DDoS attacks targeting `xmlrpc.php`.
 
-## 🔐 Rule Expression
+## Rule Expression
 
 ```cf-expression
 (http.request.uri.path contains "/xmlrpc.php")
 ```
 
-## ✅ Suggested Action
+## Suggested Action
 
 - Action: Block
 
-## 📌 Notes
+## Notes
 
 Unless you're using services that depend on XML-RPC (e.g. Jetpack, remote publishing), it's safe to block this endpoint.
